@@ -1,12 +1,12 @@
-import './Button.css'
+import React from 'react';
+import './Button.css'; 
 
-export default function Button({ onClick }) {
-    return (
-      <div className="buttonBox">
-        <button onClick={onClick} className="buttonAdd">
-        New task
-        </button>
-      </div>
-    );
-  }
-  
+const Button = ({ onClick, children }) => {
+  return (
+    <button className="buttonAdd" onClick={onClick}>
+      {children}
+    </button>
+  );
+};
+
+export default Button;

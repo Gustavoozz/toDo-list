@@ -5,13 +5,17 @@
     border: 1px solid #FCFCFC;
     border-radius: 8px;
 
-    font-family: Roboto;
+    font-family: Poppins;
     font-style: normal;
     color: white;
+    position: relative;
+    top: 350px;
+    left: 270px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.buttonBox {
-    position: relative;
-    top: 280px;
-    right: 200px;
+.buttonAdd:hover {
+    background-color: #8E6CFF;
+    transform: scale(1.05); 
 }
+
