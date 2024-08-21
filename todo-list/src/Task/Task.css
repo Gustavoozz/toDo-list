@@ -1,0 +1,53 @@
+.toDoTask {
+    width: 650px;
+    height: 50px;
+    background-color: #FCFCFC;
+    border: 1px solid #FCFCFC;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+
+    margin-top: 70px;
+}
+
+.checkBox {
+    background-color: #BDA4FF;
+    border: 1px solid #8758FF;
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+.activeButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;  
+
+}
+
+.deleteButton {
+    background-color: white;
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editButton {
+    background-color: white;
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

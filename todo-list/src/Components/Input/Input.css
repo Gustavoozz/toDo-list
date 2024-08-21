@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.searchInput {
+    background-color: transparent;
+    border: 1px solid #FCFCFC;
+    border-radius: 8px;
+    width: 350.64px;
+    height: 42.44px;
+
+    display: flex;
+    text-align: right;
+    padding-right: 10px;
+
+    font-family: Roboto;
+    font-style: normal;
+}
+
+.searchInput::placeholder {
+    color: white; 
+}
+
+.iconBox {
+    position: relative;
+    top: 35px;
+    right: 140px;
+    color: white;
+}

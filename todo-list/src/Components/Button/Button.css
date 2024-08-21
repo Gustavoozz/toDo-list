@@ -1,0 +1,17 @@
+.buttonAdd {
+    width: 200px;
+    height: 40px;
+    background-color: #6C45CE;
+    border: 1px solid #FCFCFC;
+    border-radius: 8px;
+
+    font-family: Roboto;
+    font-style: normal;
+    color: white;
+}
+
+.buttonBox {
+    position: relative;
+    top: 280px;
+    right: 200px;
+}
